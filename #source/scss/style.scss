@@ -38,12 +38,12 @@ $fontfamily: "Roboto";
 
 
 .main-screen {
-	background: url('/img/movies/main_screen.jpg') 50% 0/cover no-repeat;
+	background: url('../img/movies/main_screen.jpg') 50% 0/cover no-repeat;
 	flex: 1 0 100%;
 	position: relative;
 
 	@media (max-width: 767px) {
-		background: url('/img/movies/main_screen_mini.jpg') 50% 100%/cover no-repeat;
+		background: url('../img/movies/main_screen_mini.jpg') 50% 100%/cover no-repeat;
 	}
 }
 
