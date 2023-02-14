@@ -43,7 +43,7 @@ $fontfamily: "Roboto";
 	position: relative;
 
 	@media (max-width: 767px) {
-		background: url('../img/movies/main_screen_mini.jpg') 50% 50%/cover no-repeat;
+		background: url('../img/movies/main_screen_mini.jpg') 50% 0/cover no-repeat;
 	}
 }
 
