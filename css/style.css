@@ -269,9 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 750px) {
   .movies__pic-screen {
     width: 90vw;
-    top: 50%;
-    left: 50%;
-    transform: rotateY(-180deg) translateY(-45%) translateX(50%);
+    transform: rotateY(-180deg) translateX(22.5%);
   }
 }
 
