@@ -258,6 +258,12 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
+@media (max-width: 750px) {
+  .movies__pic-post {
+    width: 90vw;
+    transform: translateX(-22.5%);
+  }
+}
 .movies__pic-screen {
   transform: rotateY(-180deg);
   -webkit-backface-visibility: hidden;
